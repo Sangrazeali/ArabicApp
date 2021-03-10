@@ -115,7 +115,7 @@
             </div>
         </div>
         <div class="user" style="background-color: #e6e7e7;">
-            <button class="btn"><span style="color: white; font-size: 20px;">وابحث عن الرحلات</span><i
+            <button id="mybtn" class="btn"><span style="color: white; font-size: 20px;">وابحث عن الرحلات</span><i
                     class="fa fa-search" style="font-size: 20px;margin-left: 10px;"></i></button>
         </div>
     </section>
@@ -146,6 +146,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        let btn = document.getElementById('mybtn');
+        btn.addEventListener('click',()=>{
+            window.location.href="index2.html";
+        })
+
+    </script>
 </body>
 
 </html>
