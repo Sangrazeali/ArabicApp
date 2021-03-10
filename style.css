@@ -515,9 +515,6 @@ footer {
         margin-top: 2px;
     }
 
-    .menu1 {
-        margin-left: 15px;
-    }
 }
 
 @media (min-width:360px) {
@@ -614,9 +611,6 @@ footer {
         margin-left: 41%;
     }
 
-    .menu1 {
-        margin-left: 15px;
-    }
 }
 
 @media (min-width:320px) {
